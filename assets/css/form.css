@@ -1,0 +1,85 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS FRAMEWORK
+|--------------------------------------------------------------------------
+| form.css
+|--------------------------------------------------------------------------
+*/
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+    color:var(--text);
+
+}
+
+.form-control,
+.form-select{
+
+    height:48px;
+
+    border-radius:10px;
+
+    border:1px solid var(--border);
+
+    transition:.25s;
+
+    box-shadow:none;
+
+}
+
+textarea.form-control{
+
+    height:auto;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 .18rem rgba(37,99,235,.15);
+
+}
+
+.form-control::placeholder{
+
+    color:#a1a1aa;
+
+}
+
+.input-group-text{
+
+    background:#fff;
+
+    border-radius:10px 0 0 10px;
+
+}
+
+.form-check-input{
+
+    cursor:pointer;
+
+}
+
+.form-check-label{
+
+    cursor:pointer;
+
+}
+
+.invalid-feedback{
+
+    font-size:13px;
+
+}
+
+.form-text{
+
+    color:var(--text-light);
+
+}

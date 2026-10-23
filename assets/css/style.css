@@ -1,0 +1,20 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS
+|--------------------------------------------------------------------------
+| File utama untuk memanggil seluruh CSS
+|--------------------------------------------------------------------------
+*/
+
+@import url("variables.css");
+@import url("layout.css");
+@import url("navbar.css");
+@import url("sidebar.css");
+@import url("topbar.css");
+@import url("footer.css");
+@import url("dashboard.css");
+@import url("form.css");
+@import url("table.css");
+@import url("button.css");
+@import url("login.css");
+@import url("responsive.css");

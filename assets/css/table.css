@@ -1,0 +1,85 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS FRAMEWORK
+|--------------------------------------------------------------------------
+| table.css
+|--------------------------------------------------------------------------
+*/
+
+.table{
+
+    background:#fff;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.table thead{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.table thead th{
+
+    border:none;
+
+    padding:14px;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+.table tbody td{
+
+    padding:14px;
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr{
+
+    transition:.20s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#f8fbff;
+
+}
+
+.table-responsive{
+
+    border-radius:10px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.pagination .page-link{
+
+    border-radius:8px;
+
+    margin:0 2px;
+
+}
+
+.dataTables_filter input{
+
+    border-radius:8px;
+
+}
+
+.table img{
+
+    border-radius:8px;
+
+}

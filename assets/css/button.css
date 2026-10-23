@@ -1,0 +1,93 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS FRAMEWORK
+|--------------------------------------------------------------------------
+| button.css
+|--------------------------------------------------------------------------
+*/
+
+.btn{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    padding:10px 18px;
+
+    transition:all .25s ease;
+
+    box-shadow:none;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+}
+
+.btn:focus{
+
+    box-shadow:none;
+
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    border-color:var(--primary);
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-dark);
+
+    border-color:var(--primary-dark);
+
+}
+
+.btn-success{
+
+    background:var(--success);
+
+    border-color:var(--success);
+
+}
+
+.btn-danger{
+
+    background:var(--danger);
+
+    border-color:var(--danger);
+
+}
+
+.btn-warning{
+
+    color:#fff;
+
+}
+
+.btn i{
+
+    margin-right:6px;
+
+}
+
+.btn-sm{
+
+    padding:6px 12px;
+
+    border-radius:8px;
+
+}
+
+.btn-lg{
+
+    padding:14px 24px;
+
+}

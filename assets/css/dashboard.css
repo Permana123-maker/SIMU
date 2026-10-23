@@ -1,0 +1,97 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS FRAMEWORK
+|--------------------------------------------------------------------------
+| dashboard.css
+|--------------------------------------------------------------------------
+*/
+
+.dashboard-title{
+
+    margin-bottom:25px;
+
+}
+
+.dashboard-title h2{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.dashboard-title p{
+
+    color:var(--text-light);
+
+}
+
+.card{
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.card-body h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.card-header{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger,
+.btn-outline-info,
+.btn-outline-dark{
+
+    height:135px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:600;
+
+    gap:10px;
+
+}
+
+.btn-outline-primary i,
+.btn-outline-success i,
+.btn-outline-warning i,
+.btn-outline-danger i,
+.btn-outline-info i,
+.btn-outline-dark i{
+
+    font-size:38px;
+
+}
+
+.table-borderless td{
+
+    padding:10px 0;
+
+}

@@ -1,0 +1,131 @@
+/*
+|--------------------------------------------------------------------------
+| SIMU CSS FRAMEWORK
+|--------------------------------------------------------------------------
+| navbar.css
+|--------------------------------------------------------------------------
+*/
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    height:var(--navbar-height);
+
+    background:var(--bg-navbar);
+
+    box-shadow:var(--shadow);
+
+    z-index:1100;
+
+    padding:0 20px;
+
+}
+
+.navbar .container-fluid{
+
+    height:100%;
+
+}
+
+.navbar-brand{
+
+    color:var(--text-white)!important;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+.navbar-brand:hover{
+
+    color:#ffffff!important;
+
+}
+
+.navbar .btn{
+
+    border:none;
+
+    border-radius:8px;
+
+}
+
+.navbar .btn i{
+
+    font-size:22px;
+
+}
+
+.navbar .nav-link{
+
+    color:rgba(255,255,255,.9)!important;
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+}
+
+.navbar .nav-link:hover{
+
+    color:#ffffff!important;
+
+}
+
+.navbar .dropdown-menu{
+
+    border:none;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow-lg);
+
+    padding:10px;
+
+    min-width:230px;
+
+}
+
+.navbar .dropdown-item{
+
+    border-radius:8px;
+
+    padding:10px 14px;
+
+    transition:var(--transition);
+
+}
+
+.navbar .dropdown-item:hover{
+
+    background:#eef4ff;
+
+}
+
+.navbar .dropdown-header{
+
+    font-weight:700;
+
+    color:var(--text);
+
+}
+
+#clock{
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#fff;
+
+}
